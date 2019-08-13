@@ -29,4 +29,4 @@ stages:
           $(tag)
           steps:
 
-    - script: docker build -t $(dockerId)/$(imageName) .  # add options to this command to meet your needs
+    - script: docker build -t $fce289e99eb9/$jasminaregisty.azurecr.io/hello-world .  # add options to this command to meet your needs
