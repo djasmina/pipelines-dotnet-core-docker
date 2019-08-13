@@ -27,3 +27,6 @@ stages:
         dockerfile: '**/Dockerfile'
         tags: |
           $(tag)
+          steps:
+
+    - script: docker build -t $(dockerId)/$(imageName) .  # add options to this command to meet your needs
