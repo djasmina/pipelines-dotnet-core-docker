@@ -32,4 +32,4 @@ stages:
     - script: docker build -t fce289e99eb9/jasminaregisty.azurecr.io/hello-world:v1 .  
     
     
-- script: docker login -u fce289e99eb9 -p password <docker-registry-url>
+    - script: docker login -u fce289e99eb9 -p password <docker-registry-url>
